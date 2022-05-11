@@ -1,0 +1,111 @@
+.content-wrapper {
+	background-image: url("img/bunga.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.content-wrapper::after {
+	content: "";
+	display: block;
+	width: 100%;
+	height: 70%;
+	background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+	position: absolute;
+	bottom: 0px;
+}
+
+.content-header,
+.content {
+	z-index: 1;
+	position: relative;
+}
+
+.main-footer {
+	z-index: 1;
+	position: relative;
+}
+
+.user-header {
+	background-image: url("img/pusing.gif");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.user-header p {
+	/* color: black !important; */
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+}
+
+.logo-lg,
+.logo-mini {
+	font-size: 28px;
+	color: white;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.9);
+}
+
+.logo-lg:hover,
+.logo-mini:hover,
+b:hover {
+	font-size: 30px;
+	text-shadow: 2px 1px 7px rgba(255, 255, 255, 0.9);
+}
+
+
+
+.logo {
+	background-image: url(img/jakartague.gif);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.box:hover {
+
+	opacity: 0.7;
+	filter: alpha(opacity=100);
+	background-color: lavender;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.info-box:hover {
+
+	opacity: 0.3;
+	filter: alpha(opacity=100);
+	background-color: snow;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	width: 110%
+}
+
+tr td:hover {
+	font-size: 14px;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.9);
+}
+
+.main-footer .instagram {
+	color: tomato;
+}
+
+li,
+.notif {
+	font-size: 12px;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	font-style: italic;
+}
+
+li:hover,
+.notif:hover {
+	font-size: 18px;
+	font-style: italic;
+}
+
+/* pencarian */
+.loader {
+	width: 35px;
+	display: none;
+}
